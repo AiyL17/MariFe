@@ -7,7 +7,9 @@
     <meta name="description" content="Personal portfolio of Mari Fe Braga, specializing in Project Development.">
     <link rel="stylesheet" href="css/style.css">
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
@@ -67,12 +69,12 @@
                 <div class="skills fade-in">
                     <h3>Core Competencies</h3>
                     <div class="skill-tags">
-                        <span>Project Planning</span>
-                        <span>Agile & Scrum</span>
-                        <span>Risk Management</span>
-                        <span>Team Leadership</span>
-                        <span>Strategic Development</span>
-                        <span>Stakeholder Communication</span>
+                        <span><i class="fas fa-tasks"></i> Project Planning</span>
+                        <span><i class="fas fa-sync-alt"></i> Agile & Scrum</span>
+                        <span><i class="fas fa-shield-alt"></i> Risk Management</span>
+                        <span><i class="fas fa-users"></i> Team Leadership</span>
+                        <span><i class="fas fa-chess-knight"></i> Strategic Development</span>
+                        <span><i class="fas fa-comments"></i> Stakeholder Communication</span>
                     </div>
                 </div>
             </div>
@@ -144,6 +146,17 @@
             <p>&copy; 2026 Mari Fe Braga. All rights reserved.</p>
         </div>
     </footer>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img" alt="Certificate Full View">
+    </div>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
 
     <script src="js/script.js"></script>
 </body>
